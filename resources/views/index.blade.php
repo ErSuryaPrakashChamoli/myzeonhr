@@ -17,20 +17,34 @@
             border-radius: 10px;
         }
 
-        .center-rounded-image{
+        .center-rounded-image {
             width: 150px;
             height: 150px;
             object-fit: cover;
             border-radius: 50%;
         }
 
-        .header-continder{
+        .header-continder {
             display: flex;
             justify-content: center;
         }
 
-        .h1class{
+        .h1class {
             text-align: left;
+        }
+
+        .greenclass {
+            color: green;
+        }
+
+        .table-caption-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .table-caption-top table {
+            caption-side: top;
         }
     </style>
 
@@ -46,10 +60,10 @@
                 <div class="col-md-2" class="image-container">
                     <img src="{{ asset('images/loans4wishImage.jpeg') }}" alt="A beautiful landscape" class="center-rounded-image">
                 </div>
-                <div class="col-md-10" class = "header-continder">
-                    <h1  class="h1class">LOANS4WISH FINANCIAL SERVICES</h1>
-                    <h3 class="h1class">Registerd Office A-47,1st Floor,Sector-2,Noida,Gautam Buddha Nagar(U.P)-201301</h3>
-                    <h2 class="h1class">Employee Joining Form</h2>
+                <div class="col-md-10" class="header-continder">
+                    <h1 class="h1class greenclass">LOANS4WISH FINANCIAL SERVICES</h1>
+                    <h3 class="h1class greenclass">Registerd Office A-47,1st Floor,Sector-2,Noida,Gautam Buddha Nagar(U.P)-201301</h3>
+                    <h2 class="h1class greenclass">Employee Joining Form</h2>
                 </div>
             </div>
 

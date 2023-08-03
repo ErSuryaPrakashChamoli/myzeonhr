@@ -20,6 +20,22 @@ class UserPerfoma extends Component
     public $frameworks = [];
     public $cv;
     public $terms;
+    public $date_birth;
+    public $father_name;
+    public $current_address;
+    public $mobile_number;
+    public $whats_up_no;
+    public $pan_no;
+    public $permanent_address;
+    public $emergency_number_1;
+    public $emergency_name_1;
+    public $emergency_nambe_1;
+    public $emergency_realtion_1;
+    public $emergency_number_2;
+    public $emergency_name_2;
+    public $emergency_realtion_2;
+    public $email_id;
+    public $whtast_up_number;
 
     public $totalSteps     = 4;
     public $currentSteps   = 1;
