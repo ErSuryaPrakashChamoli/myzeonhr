@@ -300,7 +300,6 @@
                         <div id="FamilyDetail">
                             <livewire:family-details />
                         </div>
-
                         <div id="Professional Refrences">
                              <livewire:professional-refrences />
                         </div>
