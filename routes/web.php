@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('user-perfoma','index');
+Route::view('user-perfoma', 'index');
