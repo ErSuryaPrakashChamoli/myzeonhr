@@ -18,3 +18,8 @@ Route::get('/', function () {
 });
 
 Route::view('user-perfoma', 'index');
+
+Route::view('check-form','checkform');
+Route::view('check-one','formtest');
+Route::view('check-bl','blformtest');
+Route::view('profile','profile');

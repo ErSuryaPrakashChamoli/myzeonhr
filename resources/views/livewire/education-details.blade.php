@@ -1,6 +1,6 @@
 <div>
 
-  <h3>Education Details</h3>
+    <h3>Education Details</h3>
     <div class="row">
 
         <div class="col-md-12">
@@ -28,31 +28,25 @@
                         <tbody>
                             <tr>
                                 <th scope="row">10th</th>
+
                                 <td>
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrInsitute10">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrInsitute10')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
                                 </td>
                                 <td>
 
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrUniversityOne">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
-                                        @enderror
-                                    </span>
-
-                                </td>
-                                <td>
-
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
-                                    <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrUniversityOne')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -61,10 +55,11 @@
 
                                 <td>
 
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrFromOne">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrFromOne')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -73,10 +68,11 @@
                                 <td>
 
 
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrToOne">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrToOne')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -86,10 +82,23 @@
 
 
                                 <td>
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrPersantageGradeOne">
                                     <span class="text-danger">
                                         @error('whtast_up_number')
-                                        {{ $message }}
+                                            {{ $message }}
+                                        @enderror
+                                    </span>
+
+                                </td>
+
+
+                                <td>
+                                    <input id="" class="form-control" type="text" name="" 
+                                        placeholder="wrSpecilationOne" wire:model="wrSpecilationOne">
+                                    <span class="text-danger">
+                                        @error('whtast_up_number')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -103,30 +112,23 @@
 
                                 <th scope="row">12th</th>
                                 <td>
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrInsitute12">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrInsitute10')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
                                 </td>
                                 <td>
 
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrUniversityTwo">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
-                                        @enderror
-                                    </span>
-
-                                </td>
-                                <td>
-
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
-                                    <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrUniversityOne')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -135,10 +137,11 @@
 
                                 <td>
 
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrFromTwo">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrFromOne')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -147,10 +150,11 @@
                                 <td>
 
 
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrToTwo">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrToOne')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -160,120 +164,51 @@
 
 
                                 <td>
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrPersantageGradeTwo">
                                     <span class="text-danger">
                                         @error('whtast_up_number')
-                                        {{ $message }}
+                                            {{ $message }}
+                                        @enderror
+                                    </span>
+
+                                </td>
+
+
+                                <td>
+                                    <input id="" class="form-control" type="text" name="" 
+                                        placeholder="wrSpecilationTwo" wire:model="wrSpecilationTwo">
+                                    <span class="text-danger">
+                                        @error('whtast_up_number')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
                                 </td>
 
                             </tr>
-
-
-                            <tr>
-
-                                <th scope="row">12th</th>
-                                <td>
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
-                                    <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
-                                        @enderror
-                                    </span>
-
-                                </td>
-                                <td>
-
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
-                                    <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
-                                        @enderror
-                                    </span>
-
-                                </td>
-                                <td>
-
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
-                                    <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
-                                        @enderror
-                                    </span>
-
-
-                                </td>
-
-                                <td>
-
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
-                                    <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
-                                        @enderror
-                                    </span>
-
-                                </td>
-
-                                <td>
-
-
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
-                                    <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
-                                        @enderror
-                                    </span>
-
-
-
-                                </td>
-
-
-                                <td>
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
-                                    <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
-                                        @enderror
-                                    </span>
-
-                                </td>
-
-                            </tr>
-
-
 
                             <tr>
 
                                 <th scope="row">Graduation</th>
-                                <td>
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                  <td>
+
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrInsituteGra">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrInsituteGra')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
                                 </td>
                                 <td>
 
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrUniversitythree">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
-                                        @enderror
-                                    </span>
-
-                                </td>
-                                <td>
-
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
-                                    <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrUniversitythree')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -282,10 +217,11 @@
 
                                 <td>
 
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrFromThree">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrFromOne')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -294,10 +230,11 @@
                                 <td>
 
 
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrToThree">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrToOne')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -307,14 +244,28 @@
 
 
                                 <td>
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrPersantageGradeThree">
                                     <span class="text-danger">
                                         @error('whtast_up_number')
-                                        {{ $message }}
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
                                 </td>
+
+
+                                <td>
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="wrSpecilationTwo" wire:model="wrSpecilationThree">
+                                    <span class="text-danger">
+                                        @error('whtast_up_number')
+                                            {{ $message }}
+                                        @enderror
+                                    </span>
+
+                                </td>
+
 
                             </tr>
 
@@ -324,30 +275,23 @@
 
                                 <th scope="row">PG</th>
                                 <td>
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrInsitutePg">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrInsitutePg')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
                                 </td>
                                 <td>
 
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrUniversityFour">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
-                                        @enderror
-                                    </span>
-
-                                </td>
-                                <td>
-
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
-                                    <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrUniversityOne')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -356,10 +300,11 @@
 
                                 <td>
 
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrFromFour">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrFromOne')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -368,10 +313,11 @@
                                 <td>
 
 
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrToFour">
                                     <span class="text-danger">
-                                        @error('whtast_up_number')
-                                        {{ $message }}
+                                        @error('wrToOne')
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
@@ -381,15 +327,27 @@
 
 
                                 <td>
-                                    <input id="" class="form-control" type="text" name="" placeholder="Enter Last name" wire:model="whtast_up_number">
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="Enter Last name" wire:model="wrPersantageGradeFour">
                                     <span class="text-danger">
                                         @error('whtast_up_number')
-                                        {{ $message }}
+                                            {{ $message }}
                                         @enderror
                                     </span>
 
                                 </td>
 
+
+                                <td>
+                                    <input id="" class="form-control" type="text" name=""
+                                        placeholder="wrSpecilationTwo" wire:model="wrSpecilationFour">
+                                    <span class="text-danger">
+                                        @error('whtast_up_number')
+                                            {{ $message }}
+                                        @enderror
+                                    </span>
+
+                                </td>
                             </tr>
 
 

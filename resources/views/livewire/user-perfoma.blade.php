@@ -309,6 +309,33 @@
             </div>
         @endif
 
+
+
+        @if ($currentSteps == 5)
+            <div class="step-2">
+                <div class="card">
+                    <div class="card-header bg-secondary text-white">Step 2/4 - Education Details</div>
+                    <div class="card-body">
+
+                        <div id="educationDetails">
+                            <livewire:education-details />
+                        </div>
+
+                        <div id="emplyement detail">
+                            <livewire:employement-details />
+                        </div>
+                        <div id="FamilyDetail">
+                            <livewire:family-details />
+                        </div>
+                        <div id="Professional Refrences">
+                             <livewire:professional-refrences />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        @endif
+
         <!-- step 3 -->
 
         @if ($currentSteps == 3)

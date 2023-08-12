@@ -37,8 +37,18 @@ class UserPerfoma extends Component
     public $email_id;
     public $whtast_up_number;
 
+
+    //************************
+    public $wrInsitute10;
+    public $wrUniversityOne;
+    public $wrFromOne;
+    public $wrToOne;
+    public $wrPersantageGradeOne;
+    public $wrSpecilationOne;
+
     public $totalSteps     = 4;
-    public $currentSteps   = 1;
+    // public $currentSteps   = 1;
+    public $currentSteps   = 5;
 
     public function mount(){
         $this->currentSteps = 1;
@@ -83,6 +93,17 @@ class UserPerfoma extends Component
             'phone'      => 'required',
             'registance' => 'required',
             'city'       => 'required'
+
+        ]);
+
+     }
+     elseif($this->currentSteps == 5){
+        $this->validate([
+            'wrInsitute10'     => 'required|email',
+            'wrFromOne'        => 'required',
+            'wrToOne'          => 'required',
+            'wrPersantageGradeOne' => 'required',
+            'wrSpecilationOne'     => 'required'
 
         ]);
 

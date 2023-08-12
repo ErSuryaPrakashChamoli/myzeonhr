@@ -41,7 +41,7 @@
                                 <td>
 
                                     <input id="" class="form-control" type="text" name=""
-                                        placeholder="Enter Your Orgation Name" wire:model="wrOrgantionName">
+                                        placeholder="Enter Your Orgation Name" wire:model="wrOrgantionNameOne">
                                     <span class="text-danger">
                                         @error('whtast_up_number')
                                             {{ $message }}
@@ -52,7 +52,7 @@
                                 <td>
 
                                     <input id="" class="form-control" type="text" name=""
-                                        placeholder="Enter Destination Name" wire:model="wrDesignation">
+                                        placeholder="Enter Destination Name" wire:model="wrDesignationOne">
                                     <span class="text-danger">
                                         @error('whtast_up_number')
                                             {{ $message }}
@@ -65,7 +65,7 @@
                                 <td>
 
                                     <input id="" class="form-control" type="text" name=""
-                                        placeholder="Enter Last name" wire:model="wrPrediodOfServe">
+                                        placeholder="Enter Last name" wire:model="wrPrediodOfServeOne">
                                     <span class="text-danger">
                                         @error('whtast_up_number')
                                             {{ $message }}
@@ -78,7 +78,7 @@
 
 
                                     <input id="" class="form-control" type="text" name=""
-                                        placeholder="Enter Last name" wire:model="wrAnualCtc">
+                                        placeholder="Enter Last name" wire:model="wrAnualCtcOne">
                                     <span class="text-danger">
                                         @error('whtast_up_number')
                                             {{ $message }}
