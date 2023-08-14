@@ -91,7 +91,7 @@
             <div class="col-md-2">
 
                 <ul class="list-group centered-list">
-                    <li class="list-group-item">Personal Detail</li>
+                    <li class="list-group-item" wire:class = "blue">Personal Detail</li>
                     <li class="list-group-item">Education Detail</li>
                     <li class="list-group-item">Document Detail</li>
                     <!-- Add more list items as needed -->

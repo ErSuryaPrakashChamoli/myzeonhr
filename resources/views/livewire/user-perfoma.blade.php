@@ -67,9 +67,9 @@
                                 <div class="form-group">
                                     <label for="">Aadhar No:</label>
                                     <input id="" class="form-control" type="text" name=""
-                                        placeholder="Enter first name" wire:model="date_birth">
+                                        placeholder="Enter first name" wire:model="adhar_no">
                                     <span class="text-danger">
-                                        @error('date_birth')
+                                        @error('adhar_no')
                                             {{ $message }}
                                         @enderror
                                     </span>
@@ -81,7 +81,7 @@
                                     <input id="" class="form-control" type="text" name=""
                                         placeholder="Enter Last name" wire:model="pan_no">
                                     <span class="text-danger">
-                                        @error('father_name')
+                                        @error('pan_no')
                                             {{ $message }}
                                         @enderror
                                     </span>
@@ -176,9 +176,9 @@
                                 <div class="form-group">
                                     <label for="">Emergency Number 1</label>
                                     <input id="" class="form-control" type="text" name=""
-                                        placeholder="Enter first name" wire:model="emergency_name_1">
+                                        placeholder="Enter first name" wire:model="emergency_number_1">
                                     <span class="text-danger">
-                                        @error('first_name')
+                                        @error('emergency_number_1')
                                             {{ $message }}
                                         @enderror
                                     </span>
@@ -188,9 +188,9 @@
                                 <div class="form-group">
                                     <label for="">Emergency Name</label>
                                     <input id="" class="form-control" type="text" name=""
-                                        placeholder="Enter Last name" wire:model="emergency_nambe_1">
+                                        placeholder="Enter Last name" wire:model="emergency_name_1">
                                     <span class="text-danger">
-                                        @error('last_name')
+                                        @error('emergency_name_1')
                                             {{ $message }}
                                         @enderror
                                     </span>
@@ -202,7 +202,7 @@
                                     <input id="" class="form-control" type="text" name=""
                                         placeholder="Enter Last name" wire:model="emergency_realtion_1">
                                     <span class="text-danger">
-                                        @error('last_name')
+                                        @error('emergency_realtion_1')
                                             {{ $message }}
                                         @enderror
                                     </span>

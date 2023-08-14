@@ -36,8 +36,10 @@ class UserPerfoma extends Component
     public $emergency_realtion_2;
     public $email_id;
     public $whtast_up_number;
+    public $adhar_no;
 
-
+    public $color_name = "blue";
+   
     //************************
     public $wrInsitute10;
     public $wrUniversityOne;
@@ -48,10 +50,10 @@ class UserPerfoma extends Component
 
     public $totalSteps     = 4;
     // public $currentSteps   = 1;
-    public $currentSteps   = 5;
+    public $currentSteps   = 4;
 
     public function mount(){
-        $this->currentSteps = 1;
+        $this->currentSteps = 4;
     }
 
     public function decreaseStep(){
@@ -80,10 +82,16 @@ class UserPerfoma extends Component
      if($this->currentSteps == 1){ 
 
         $this->validate([
-            'first_name' => 'required|string',
-            'last_name'  => 'required|string',
+            'first_name' => 'required|string|regex:/^[a-zA-Z\s]+$/',
+            'last_name'  => 'required|string|regex:/^[a-zA-Z\s]+$/',
             'gender'     =>  'required',
-            'age'        => 'required|digits:2'
+            'age'        => 'required|digits:2',
+            'mobile_number' => 'required|numeric|regex:/^[6789]\d{9}$/',
+            'whats_up_no' => 'required|numeric|regex:/^[6789]\d{9}$/',
+            'emergency_number_1' => 'required|numeric|regex:/^[6789]\d{9}$/',
+            'emergency_number_2' =>'nullable|numeric|regex:/^[6789]\d{9}$/',
+            'adhar_no' => 'required|regex:/^\d{12}$/',
+            'pan_no' =>'required|regex:/^[A-Z]{5}\d{4}[A-Z]$/'
         ]);
 
      }
